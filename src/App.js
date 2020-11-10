@@ -21,7 +21,7 @@ function App() {
   const [isReady, setReady] = React.useState(false);
 
   React.useEffect(() => {
-    fetch('https://www.balldontlie.io/api/v1/players')
+    fetch('Assign API-data here.')
     .then(response => response.json()) 
     .then(responseData => {
       console.log(responseData);
